@@ -12,6 +12,7 @@ import Container from '@/components/Container';
 import Main from '@/components/Main';
 
 import { getSortedPostsData } from '../../lib/posts';
+import { getSortedDIPostsData } from '../../lib/di-posts';
 
 interface Post {
   title: string;
@@ -20,6 +21,7 @@ interface Post {
 
 interface IProps {
   allPostsData: Post[];
+  allDIPostsData: Post[];
 }
 
 function shuffleArray(array) {
@@ -35,30 +37,44 @@ function shuffleArray(array) {
 
 export const getStaticProps: GetStaticProps = async () => {
   const allPostsData = shuffleArray(getSortedPostsData());
+  const allDIPostsData = shuffleArray(getSortedDIPostsData());
   return {
     props: {
-      allPostsData
+      allPostsData,
+      allDIPostsData
     }
   };
 };
 
-const Home: NextPage<IProps> = ({allPostsData}) => {
+const Home: NextPage<IProps> = ({allPostsData, allDIPostsData}) => {
 
   return (
     <>
       <Container>
         <Head>
-          <title>! CMD DC5 2021-2022 </title>
+          <title>EXPO CMD MINOR: IUXD &amp; DI - 2021-2022</title>
           <link href="/favicon.ico" rel="icon" />
         </Head>
 
         <Main className="text-left justify-start">
-          <h1 className="text-green-400 uppercase text-4xl py-4 font-black">EXPO</h1>
           <h2 className="text-purple-600 uppercase text-sm font-black">Interface &amp; User Experience Design</h2>
           <ul className="container no-underline flex flex-wrap  justify-start text-black mb-10">
             {allPostsData.map(({ id, title }) => (
               <li key={id} className="py-2 px-3 text-3xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out">
                 <Link href={`/team/${id}`}>
+                  <a>{title}</a>
+                </Link>
+                <br />
+                
+              </li>
+            ))}
+          </ul>
+
+          <h2 className="text-purple-600 uppercase text-sm font-black">Designful Innovation</h2>
+          <ul className="container no-underline flex flex-wrap  justify-start text-black">
+            {allDIPostsData.map(({ id, title }) => (
+              <li key={id} className="py-2 px-3 text-xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out">
+                <Link href={`/student/${id}`}>
                   <a>{title}</a>
                 </Link>
                 <br />

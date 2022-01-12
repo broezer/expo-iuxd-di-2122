@@ -82,7 +82,7 @@ const Project: NextPage<IProps> = ({ postData }) => {
     <>
       <Container>
         <Head>
-          <title>{postData.title} | Minor: IUXD</title>
+          <title>{postData.title} | EXPO CMD MINOR: IUXD</title>
         </Head>
         <Main>
           <Link href="/">
