@@ -5,7 +5,7 @@ const ProfilePicture: FC<{ src: string }> = ({ src }) => {
 
   const imgRef = useRef(null);
   useEffect(() => {
-    imgRef.current.src = '/iuxd-profiles/' + src + '.jpg';
+    imgRef.current.src = '/iuxd/profiles/' + src + '.jpg';
 
     imgRef.current.addEventListener('loadeddata', () => {
       setIsLoaded(true);

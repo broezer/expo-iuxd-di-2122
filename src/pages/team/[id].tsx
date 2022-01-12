@@ -8,6 +8,8 @@ import 'tailwindcss/dist/tailwind.css';
 import Container from '@/components/Container';
 import Main from '@/components/Main';
 import Miro from '@/components/Miro';
+import ProfilePicture from '@/components/ProfilePicture';
+
 // import Visual from '@/components/Visual';
 // import YouTube from '@/components/YouTube';
 
@@ -74,47 +76,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
 };
 
 const Project: NextPage<IProps> = ({ postData }) => {
-  const classAList = [
-    { title: 'Dynamic System', link: 'dynamic-system' },
-    { title: 'Idera', link: 'idera' },
-    { title: 'WeDesign', link: 'we-design' },
-    { title: 'We Bond!', link: 'we-bond' },
-    { title: 'WeCreate', link: 'we-create' }
-  ];
-
-  const classBList = [
-    { title: 'Team Undecided', link: 'team-undecided' },
-    { title: 'In \'\n Out', link: 'in-n-out' },
-    { title: 'Team RANJAH', link: 'team-ranjah' },
-    { title: 'Reach Out', link: 'reach-out' },
-    { title: 'We Anwser', link: 'we-anwser' },
-    { title: 'Unexhaustable', link: 'unexhaustable'}
-  ];
-
-  // eslint-disable-next-line prettier/prettier
-  const classCList = [
-    { title: 'CMTA', link: 'cmta' },
-    { title: 'Anoniem', link: 'anoniem' },
-    { title: 'WiiTransfer', link: 'wii-transfer' },
-    { title: 'Frietfjieuw', link: 'frietfjieuw' },
-    { title: 'Tom', link: 'tom' }
-  ];
-
-  const classDList = [
-    { title: 'Bijmekaar Geraapt Zootj', link: 'bgz' },
-    { title: '4B\'\s', link: '4bs' },
-    { title: 'Diem', link: 'diem' },
-    { title: 'Portie', link: 'portie' },
-    { title: 'The Monkey Business', link: 'tmb' },
-    { title: 'Women of Wisdom', link: 'wow' }
-  ];
-
-  const classEList = [
-    { title: 'AMG', link: 'amg' },
-    { title: 'Diverse', link: 'diverse' },
-    { title: 'Raja Official', link: 'raja-official' },
-    { title: 'WeTransform', link: 'we-transform' }
-  ];
+  
 
   return (
     <>
@@ -142,18 +104,30 @@ const Project: NextPage<IProps> = ({ postData }) => {
               <h1 className="text-5xl font-black uppercase text-green-400 mt-10 mb-0">
                 {postData.title}
               </h1>
+              <h2 className="text-xs mb-10 text-gray-800">
+                <span className="lowercase font-light">Client: </span>
+                <span className="font-bold">{postData.client}</span>
+              </h2> 
             </header>
 
             <section className="flex flex-wrap justify-center">
-              {postData.members.map(({ name }) => (
-                <>
-                  <div className="md:w-1/6 w-1/2 flex flex-col flex-wrap text-center ">
+              {postData.members.map(({ name, img }) => (
+                
+                  <div className="md:w-1/6 w-1/2 flex flex-col flex-wrap text-center " key={name}>
+                   <figure className="rounded-full h-32 w-32  m-auto overflow-hidden shadow-md">
+                      <ProfilePicture src={ img }></ProfilePicture>
+                    </figure>
                     <h3 className="text-center font-semibold my-2 w-full  text-gray-800">
                       {name}
                     </h3>
                   </div>
-                </>
+                
               ))}
+            </section>
+
+             <section className="flex flex-wrap justify-center my-10">
+                <h3 className="uppercase text-xs text-purple-600 font-bold w-full text-center ">Ontwerpvraag</h3>
+                <h2 className="font-light italic text-xl text-gray-800 text-center w-4/5">"{postData.ontwerpvraag}"</h2>
             </section>
 
             <section
@@ -162,19 +136,9 @@ const Project: NextPage<IProps> = ({ postData }) => {
               dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
             />
 
-            <section
-              className="flex flex-wrap justify-center my-10 w-4/5 m-auto"
-              style={{ display: postData.teams ? 'block' : 'none' }}>
-              <h2 className="uppercase text-xs text-purple-600 font-bold w-full mb-4 text-center">
-                Connect with us
-              </h2>
-              <a
-                className="w-full inline-block cursor-pointer bg-white text-center mx-5 p-4 text-purple-600 rounded-md border-solid border-2 border-purple-600 hover:text-white hover:bg-purple-600 transition ease-in-out duration-300"
-                href={postData.teams}
-                rel="noreferrer"
-                target="_blank">
-                Meet op MS Teams
-              </a>
+            <section className="flex flex-wrap justify-center my-10 w-4/5 m-auto">
+              <h2 className="uppercase text-xs text-purple-600 font-bold w-full mb-4 text-center">Connect with us</h2>
+              <a href={postData.casestudy} className="w-1/3 cursor-pointer bg-white text-center mx-5 p-4 text-green-400 rounded-md border-solid border-2 border-green-400 hover:text-white hover:bg-green-400 transition ease-in-out duration-300">Bezoek onze case-study</a>
             </section>
 
             <h4 className="text-xl text-center w-full font-black uppercase text-green-400 my-6">
