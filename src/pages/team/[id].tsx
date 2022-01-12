@@ -120,7 +120,7 @@ const Project: NextPage<IProps> = ({ postData }) => {
     <>
       <Container>
         <Head>
-          <title>{postData.title} | CMD DC5 2021-2022</title>
+          <title>{postData.title} | Minor: IUXD</title>
         </Head>
         <Main>
           <Link href="/">
@@ -183,84 +183,7 @@ const Project: NextPage<IProps> = ({ postData }) => {
             <Miro src={postData.miro} />
           </article>
 
-          <h2 className="text-green-600 uppercase text-sm font-black mt-10">
-            Teams
-          </h2>
-
-          <h2 className="text-purple-600 uppercase text-sm font-black">2A</h2>
-
-          <ul className="container no-underline flex flex-wrap  justify-center text-black mb-10">
-            {classAList.map((team, index) => (
-              <li
-                className="py-4 px-3 text-4xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out"
-                data-index={index}>
-                <Link href={`/team/${team.link}`}>
-                  <a>{team.title}</a>
-                </Link>
-                <br />
-              </li>
-            ))}
-          </ul>
-
-          <h2 className="text-purple-600 uppercase text-sm font-black">2B</h2>
-
-          <ul className="container no-underline flex flex-wrap  justify-center text-black mb-10">
-            {classBList.map((team, index) => (
-              <li
-                className="py-4 px-3 text-4xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out"
-                data-index={index}>
-                <Link href={`/team/${team.link}`}>
-                  <a>{team.title}</a>
-                </Link>
-                <br />
-              </li>
-            ))}
-          </ul>
-
-          <h2 className="text-purple-600 uppercase text-sm font-black">2C</h2>
-
-          <ul className="container no-underline flex flex-wrap  justify-center text-black mb-10">
-            {classCList.map((team, index) => (
-              <li
-                className="py-4 px-3 text-4xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out"
-                data-index={index}>
-                <Link href={`/team/${team.link}`}>
-                  <a>{team.title}</a>
-                </Link>
-                <br />
-              </li>
-            ))}
-          </ul>
-
-          <h2 className="text-purple-600 uppercase text-sm font-black">2D</h2>
-
-          <ul className="container no-underline flex flex-wrap  justify-center text-black mb-10">
-            {classDList.map((team, index) => (
-              <li
-                className="py-4 px-3 text-4xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out"
-                data-index={index}>
-                <Link href={`/team/${team.link}`}>
-                  <a>{team.title}</a>
-                </Link>
-                <br />
-              </li>
-            ))}
-          </ul>
-
-          <h2 className="text-purple-600 uppercase text-sm font-black">2E</h2>
-
-          <ul className="container no-underline flex flex-wrap  justify-center text-black mb-10">
-            {classEList.map((team, index) => (
-              <li
-                className="py-4 px-3 text-4xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out"
-                data-index={index}>
-                <Link href={`/team/${team.link}`}>
-                  <a>{team.title}</a>
-                </Link>
-                <br />
-              </li>
-            ))}
-          </ul>
+          
 
         </Main>
       </Container>

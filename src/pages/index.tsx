@@ -42,7 +42,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const Home: NextPage<IProps> = ({}) => {
+const Home: NextPage<IProps> = ({allPostsData}) => {
 
   return (
     <>
@@ -54,7 +54,18 @@ const Home: NextPage<IProps> = ({}) => {
 
         <Main className="text-left justify-start">
           <h1 className="text-green-400 uppercase text-4xl py-4 font-black">EXPO</h1>
-          
+          <h2 className="text-purple-600 uppercase text-sm font-black">Interface &amp; User Experience Design</h2>
+          <ul className="container no-underline flex flex-wrap  justify-start text-black mb-10">
+            {allPostsData.map(({ id, title }) => (
+              <li key={id} className="py-2 px-3 text-3xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out">
+                <Link href={`/team/${id}`}>
+                  <a>{title}</a>
+                </Link>
+                <br />
+                
+              </li>
+            ))}
+          </ul>
         </Main>
       </Container>
     </>
