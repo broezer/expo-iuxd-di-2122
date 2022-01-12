@@ -1,16 +1,20 @@
 ---
-title: 'No Boys Please'
+title: '4B''s'
 date: '2019-01-03'
 client: 'WeTransfer'
 ontwerpvraag: ''
 members:
-    -   name: Samantha Velt
-    -   name: Isa van Es
+    -   name: John Doe
+    -   name: Jane Doe
     -   name: Marianne 't Hoen
-    -   name: Sanisha Rusch
-    -   name: Roos van der Kleij
+    -   name: Jane Doe
 miro: ''
 visual: ''
 youtube: ''
 teams: ''
+
 ---
+
+
+ 
+
