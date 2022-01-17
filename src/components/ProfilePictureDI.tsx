@@ -5,6 +5,7 @@ const ProfilePictureDI: FC<{ src: string }> = ({ src }) => {
 
   const imgRef = useRef(null);
   useEffect(() => {
+    var src = src.toLowerCase();
     imgRef.current.src = '/di/profiles/' + src + '.jpg';
 
     imgRef.current.addEventListener('loadeddata', () => {
