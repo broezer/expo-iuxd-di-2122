@@ -88,7 +88,7 @@ const Project: NextPage<IProps> = ({ postData }) => {
           <Link href="/">
             <a>
               <svg
-                className="m-4 fill-current text-black hover:text-purple-600 transition duration-300 ease-in-out"
+                className="m-4 fill-current text-white hover:text-purple-600 transition duration-300 ease-in-out"
                 clipRule="evenodd"
                 fillRule="evenodd"
                 height="50"
