@@ -59,7 +59,7 @@ const Home: NextPage<IProps> = ({allPostsData, allDIPostsData}) => {
 
         <Main className="text-left justify-start">
           <h2 className="text-purple-600 uppercase text-sm font-black">Interface &amp; User Experience Design</h2>
-          <ul className="container no-underline flex flex-wrap  justify-start text-black mb-10">
+          <ul className="container no-underline flex flex-wrap  justify-start text-white mb-10">
             {allPostsData.map(({ id, title }) => (
               <li key={id} className="py-2 px-3 text-3xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out">
                 <Link href={`/team/${id}`}>
@@ -72,7 +72,7 @@ const Home: NextPage<IProps> = ({allPostsData, allDIPostsData}) => {
           </ul>
 
           <h2 className="text-purple-600 uppercase text-sm font-black">Designful Innovation</h2>
-          <ul className="container no-underline flex flex-wrap  justify-start text-black">
+          <ul className="container no-underline flex flex-wrap  justify-start text-white">
             {allDIPostsData.map(({ id, title }) => (
               <li key={id} className="py-2 px-3 text-xl font-medium  hover:text-purple-600 transition duration-300 ease-in-out">
                 <Link href={`/student/${id}`}>
