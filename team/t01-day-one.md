@@ -12,7 +12,7 @@ members:
         img: DSC_0930
     -   name: Channah Stark
         img: DSC_0949
-miro: ''
+miro: 'uXjVOU7-W-8='
 visual: ''
 youtube: ''
 teams: ''

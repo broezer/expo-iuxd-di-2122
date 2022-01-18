@@ -12,7 +12,7 @@ members:
         img: DSC_1081
     -   name: Fauzi Tjahjono
         img: DSC_1102
-miro: ''
+miro: 'uXjVOU7-WFY='
 visual: ''
 youtube: ''
 teams: ''

@@ -10,7 +10,7 @@ members:
         img: DSC_1774
     -   name: Demie van Bentveld 
         img: DSC_1790
-miro: ''
+miro: 'uXjVOU7G03Q='
 visual: ''
 youtube: ''
 teams: ''

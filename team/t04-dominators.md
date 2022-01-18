@@ -12,7 +12,7 @@ members:
         img: DSC_1218
     -   name: Kevin van den Berge
         img: DSC_1233
-miro: ''
+miro: 'uXjVOU7G0go='
 visual: ''
 youtube: ''
 teams: ''

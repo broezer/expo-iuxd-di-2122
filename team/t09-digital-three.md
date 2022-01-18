@@ -10,7 +10,7 @@ members:
         img: DSC_1695
     -   name: Floor	Vermaat
         img: DSC_1714
-miro: ''
+miro: 'uXjVOU7G0w0='
 visual: ''
 youtube: ''
 teams: ''
