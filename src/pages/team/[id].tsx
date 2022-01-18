@@ -132,7 +132,6 @@ const Project: NextPage<IProps> = ({ postData }) => {
 
             <section
               className={styles.postContent}
-              // eslint-disable-next-line react/no-danger
               dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
             />
 
