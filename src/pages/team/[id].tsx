@@ -138,7 +138,7 @@ const Project: NextPage<IProps> = ({ postData }) => {
 
             <section className="flex flex-wrap justify-center my-10 w-4/5 m-auto">
               <h2 className="uppercase text-xs text-purple-600 font-bold w-full mb-4 text-center">Connect with us</h2>
-              <a href={postData.casestudy} className="w-1/3 cursor-pointer bg-white text-center mx-5 p-4 text-green-400 rounded-md border-solid border-2 border-green-400 hover:text-white hover:bg-green-400 transition ease-in-out duration-300">Bezoek onze case-study</a>
+              <a href={postData.casestudy} rel="noopener" target="_blank" className="w-1/3 cursor-pointer bg-white text-center mx-5 p-4 text-green-400 rounded-md border-solid border-2 border-green-400 hover:text-white hover:bg-green-400 transition ease-in-out duration-300">Bezoek onze case-study</a>
             </section>
 
             <h4 className="text-xl text-center w-full font-black uppercase text-green-400 my-6">

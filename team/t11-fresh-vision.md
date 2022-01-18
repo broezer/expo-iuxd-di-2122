@@ -12,7 +12,7 @@ members:
         img: DSC_2094
     -   name: António Pereira Gonçalves
         img: DSC_2111
-miro: 'uXjVOU7G07A='
+miro: 'uXjVOU7G07A'
 visual: ''
 youtube: ''
 teams: ''

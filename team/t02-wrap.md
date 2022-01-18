@@ -14,7 +14,7 @@ members:
         img: DSC_1000
     -   name: Lars van Boven
         img: DSC_1017
-miro: 'uXjVOU7-W7E='
+miro: 'uXjVOU7-W7E'
 visual: ''
 youtube: ''
 teams: ''

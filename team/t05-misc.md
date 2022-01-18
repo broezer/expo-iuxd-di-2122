@@ -12,7 +12,7 @@ members:
         img: DSC_1293
     -   name: Khatra Patang
         img: DSC_1307
-miro: 'uXjVOU7G0hw='
+miro: 'uXjVOU7G0hw'
 visual: ''
 youtube: ''
 teams: ''

@@ -12,7 +12,7 @@ members:
         img: DSC_1386
     -   name: Hanno op den Brouw
         img: DSC_1424
-miro: 'uXjVOU7G0tg='
+miro: 'uXjVOU7G0tg'
 visual: ''
 youtube: ''
 teams: ''

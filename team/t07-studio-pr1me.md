@@ -12,7 +12,7 @@ members:
         img: DSC_1625
     -   name: Celine Loos
         img: DSC_1632
-miro: 'uXjVOU7G0oQ='
+miro: 'uXjVOU7G0oQ'
 visual: ''
 youtube: ''
 teams: ''

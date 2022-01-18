@@ -12,7 +12,7 @@ members:
         img: DSC_1997
     -   name: Maaike Kwinkelenberg
         img: DSC_2023
-miro: 'uXjVOU7G0_s='
+miro: 'uXjVOU7G0_s'
 visual: ''
 youtube: ''
 teams: ''
