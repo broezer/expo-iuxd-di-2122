@@ -2,7 +2,7 @@
 title: 'Dominators'
 date: '2022-01-12'
 client: 'Creating010/NPO'
-ontwerpvraag: ''
+ontwerpvraag: 'Hoe kunnen we de NPO Start kijker doormiddel van aanbevelingen "verleiden" om content te kijken buiten hun interessegebied?'
 members:
     -   name: Andries Speksnijder
         img: andries-color
@@ -16,6 +16,7 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'https://sparkling-hill-6673.animaapp.io'
 
 ---
 

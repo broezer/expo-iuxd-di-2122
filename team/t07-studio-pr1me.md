@@ -2,7 +2,7 @@
 title: 'Studio PR1ME'
 date: '2022-01-12'
 client: 'Gemeente Rotterdam/VONK'
-ontwerpvraag: ''
+ontwerpvraag: '“Hoe kunnen wij ervoor zorgen dat studenten verbonden worden met de verschillende innovatiehubs?'
 members:
     -   name: Yvon Swinkels
         img: DSC_1559
@@ -16,6 +16,7 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'http://studiopr1me.atwebpages.com/'
 
 ---
 

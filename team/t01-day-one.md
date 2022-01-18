@@ -12,12 +12,11 @@ members:
         img: DSC_0930
     -   name: Channah Stark
         img: DSC_0949
-casestudy: 'https://teamdayone.webflow.io'
 miro: ''
 visual: ''
 youtube: ''
 teams: ''
-
+casestudy: 'https://teamdayone.webflow.io'
 ---
 
 

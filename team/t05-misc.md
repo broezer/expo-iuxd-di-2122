@@ -2,7 +2,7 @@
 title: 'MISC.'
 date: '2022-01-12'
 client: 'KB'
-ontwerpvraag: ''
+ontwerpvraag: 'De gebruikerservaring van de huidige en nieuwe abonnees verbeteren omtrent de toegang tot de wetenschappelijke artikelen welke al onderdeel zijn van het abonnement'
 members:
     -   name: Zafer Ünlü
         img: DSC_1253
@@ -16,6 +16,8 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'https://misc-ux.studio/'
+
 
 ---
 

@@ -2,7 +2,7 @@
 title: 'Fresh Vision'
 date: '2022-01-12'
 client: 'Mirabeau'
-ontwerpvraag: ''
+ontwerpvraag: 'How can we design a remote onboarding tool that focuses on improving the human side of onboarding?'
 members:
     -   name: Suraiya Jagmohan
         img: DSC_2050
@@ -16,6 +16,7 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'https://connectiontea.webflow.io/'
 
 ---
 

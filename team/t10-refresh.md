@@ -2,7 +2,7 @@
 title: 'Refresh'
 date: '2022-01-12'
 client: 'Gemeente Rotterdam/VONK'
-ontwerpvraag: ''
+ontwerpvraag: 'Hoe kunnen we de innovatiehubs in Rotterdam zichtbaar maken voor innovatieve ondernemers en de drempel verlagen om hun innovatienetwerk uit te breiden?'
 members:
     -   name: Lisa van den Berg
         img: DSC_1931
@@ -16,6 +16,7 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'http://teamrefresh-innovatietafel.nl/'
 
 ---
 

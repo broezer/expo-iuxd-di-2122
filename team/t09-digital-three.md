@@ -14,6 +14,7 @@ miro: ''
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'https://digitalthree.vangeffen.dev/'
 
 ---
 
