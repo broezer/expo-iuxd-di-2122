@@ -29,8 +29,8 @@ const Video: FC<{ src: string }> = ({ src }) => {
         height: '100vh',
         zIndex: -1,
         objectFit: 'cover',
-        transition: 'opacity, 5s ease-in-out',
-        transitionDelay: '2s'
+        transition: 'opacity, 200ms ease-in-out',
+        transitionDelay: '0'
       }}
     />
   );
