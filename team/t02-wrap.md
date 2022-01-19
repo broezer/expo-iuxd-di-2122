@@ -18,6 +18,7 @@ miro: 'uXjVOU7-W7E'
 visual: ''
 youtube: ''
 teams: ''
+casestudy: 'https://case-study-wrap.vercel.app/'
 
 
 ---
