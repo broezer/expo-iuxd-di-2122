@@ -2,7 +2,7 @@
 title: 'WRAP'
 date: '2022-01-12'
 client: 'Dio. Agency'
-ontwerpvraag: ''
+ontwerpvraag: 'Het doel is om een digitale interventie te ontwerpen met als doel om de communicatie van patiënten met Alzheimer te optimaliseren, om sociale isolatie tegen te gaan en om hun kwaliteit van leven te verhogen.'
 members:
     -   name: Myrthe van Eijk
         img: DSC_0959
