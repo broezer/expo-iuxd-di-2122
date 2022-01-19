@@ -16,7 +16,7 @@ Returning your clothes at your favorite shop is easier than ever. You’ll put t
  
 ## Room - The most accurate digital clothing fitting service experienced.
  
-Personal details
+### Personal details
  
 Lakiesha Kromoinangoen 
 

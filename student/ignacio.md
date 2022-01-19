@@ -19,5 +19,7 @@ Offsider is here to upgrade the game. We have developed a system in which brands
 ### Personal Details
 
 Ignacio Pujol Gil
+
 [ignaciopujolgil@gmail.com](mailto:ignaciopujolgil@gmail.com)
+
 [https://www.linkedin.com/in/ignacio-pujol-gil/ ](https://www.linkedin.com/in/ignacio-pujol-gil/)

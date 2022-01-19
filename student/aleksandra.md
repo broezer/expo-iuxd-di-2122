@@ -22,10 +22,12 @@ Sharing your emotions
 is caring for yourself
 
 ### Personal Details
-Aleksandra Szumiec \
+Aleksandra Szumiec 
+
+
 [szumiecaleksandra@gmail.com](mailto:szumiecaleksandra@gmail.com)
 
 
-[https://www.behance.net/aleksandraszumiec
-](https://www.behance.net/aleksandraszumiec) \
-[www.linkedin.com/in/aleksandra-szumiec](https://www.behance.net/aleksandraszumiec)
+[https://www.behance.net/aleksandraszumiec](https://www.behance.net/aleksandraszumiec) 
+
+[www.linkedin.com/in/aleksandra-szumiec](https://www.linkedin.com/in/aleksandra-szumie)
