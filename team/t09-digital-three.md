@@ -2,7 +2,7 @@
 title: 'Digital Three'
 date: '2022-01-12'
 client: 'Strakzat/YourDesk'
-ontwerpvraag: ''
+ontwerpvraag: 'How can we bind more employers to YourDesq and offer an appropriate experience to both the employers and employees?'
 members:
     -   name: Ibo van Geffen
         img: DSC_1679
