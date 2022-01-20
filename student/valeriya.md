@@ -22,4 +22,8 @@ Connect to Collect is there to encourage you to make comfortable steps, build fr
   
 Valeriya Ozerova 
 
-[vlrya@hotmail.nl ](mailto:vlrya@hotmail.nl)
+[vlrya@hotmail.nl](mailto:vlrya@hotmail.nl)
+
+[http://valeriyaozerova.com ](http://valeriyaozerova.com)
+ 
+[https://www.linkedin.com/in/valeriyaozerova/](http://valeriyaozerova.com)

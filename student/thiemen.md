@@ -4,7 +4,7 @@ firstname: 'Thiemen'
 date: '2022-01-12'
 miro: 'uXjVOW_Tx14'
 video: 
-hmw: ‘ease the grieving process of people who suffered traumatic loss of lost ones through virtual means? ‘
+hmw: ‘ease the grieving process of people who suffered traumatic loss of loved ones through virtual means? ‘
 visual: 
 profile_img: 
 theme: ‘More Human’

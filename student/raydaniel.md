@@ -12,17 +12,15 @@ theme: ‘Work, Culture & Play’
 
 ## Myrada
 
-Once upon a time, there was a magical force called Stories. These were little messages containing lifelong learnings. They also had other powers, such as making the ones they encounter feel happy, sad, scared, strong hopeful and many more. These stories travelled from mouth to mouth, from tribe to tribe, changing shape and form as they went along.
+Once upon a time, there was a force called Stories. These were little messages containing lifelong learnings. They also made people feel happy, sad, scared, hopeful and more. Stories travelled from mouth to mouth, tribe to tribe, transforming –along the way- into what the tribes experienced. This way it was easier for the tribespeople to understand the emotions and learnings it brought.  
 
-Every time they got to a new tribe, they would explore around, and transform into what the tribe experiences. They would reshape into words only those people would understand. This was amazingly effective. Because this way it would be easier for the tribespeople to understand the emotions and learnings they brought.
+As time went by, tribes grew into big communities, developing media, e.g., the so called ‘books’ and ‘movies’, that allowed Stories to travel faster and reach more people. But, with doing so, Stories lost some of its power. It could not completely transform to be understood by everyone. Consequently, some people missed the learnings and emotions it brought. 
 
-As time went by, the tribes grew into big communities. They developed media, for example the so called ‘books’ and ‘movies’, that would allow the stories to travel faster and reach more and more people. But, with doing so, the stories lost some of their power. They could not completely transform to be understood by everyone they reached. Consequently, the people missed out on the learnings and emotions these stories brought with them.
+Enter **Myrada**, a tool created to help Stories regain its powers. It was used with ‘Movies’ and was created for children (age 10). This tool scanned them and created an animated avatar. Then, it paired each avatar with a personal face shield, allowing the children to see themselves on the movie screen. 
 
-Enter Myrada. Myrada was a tool created to help some of these stories gain their powers again. It was used together with the medium ‘Movies’. This tool was created for children, around the age of 10, and had powers of its own. Children would be scanned with this tool, and an animated version of themselves would be created. This tool would then pair their animated version with a special personal magical face shield, which allowed the children to see themselves on the big movie screen.
+Seeing themselves present in the story boosted the children’s self-esteem, self-worth, and it made them feel heard. Stories once again had the power to speak to everyone personally, unlocking emotions, lifelong morals, values, and hopefully live happily ever after. 
 
-Seeing themselves present in the story had massive benefits for these children. It boosted their self-esteem and self-worth, it also made them feel heard and understood. With this tool, stories once again had the power to speak to each and every one they encountered personally, increasing the chances of unlocking emotions, learn lifelong skills, morals, values, and hopefully live happily ever after.
-
-The end. 
+The end. 
 
 
 ### Personal Details
