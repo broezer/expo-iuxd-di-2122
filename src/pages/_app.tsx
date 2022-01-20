@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <Video src="https://player.vimeo.com/external/667485149.hd.mp4?s=c9ac2a34e5506f80f2b63c55fc5f558d9ffb58b7&profile_id=175" />
-           
+         <Twitchi src="https://vdo.ninja/?view=FTKZCYw"></Twitchi>      
         <Component {...pageProps} />
       </ThemeProvider>
     </>
