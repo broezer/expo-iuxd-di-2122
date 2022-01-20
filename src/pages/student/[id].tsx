@@ -15,6 +15,8 @@ import Visual from '@/components/Visual';
 import styles from '../../styles/Post.module.css';
 
 
+const teamLink = 'https://teams.microsoft.com/l/channel/19%3aEGpM_22_O6eincrX5xAv0-s9h3gEJcSWnJcS-WH6l8M1%40thread.tacv2/General?groupId=b1d69b28-d352-4850-b835-a9a3f5388c28&tenantId=ca6fbace-7cba-4d53-8681-a06284f7ff46';
+
 export default function Post({
     postData
   }: {
@@ -70,6 +72,11 @@ export default function Post({
                 <figure className="shadow-lg">
                   <Visual src={ postData.title }></Visual>
                 </figure>
+            </section>
+
+            <section className="flex flex-wrap justify-center my-10 w-4/5 m-auto">
+              <h2 className="uppercase text-xs text-green-600 font-bold w-full mb-4 text-center">Connect with us</h2>
+              <a href={teamLink} className="w-1/3 cursor-pointer bg-white text-center mx-5 p-4 text-purple-600 rounded-md border-solid border-2 border-purple-600 hover:text-white hover:bg-purple-600 transition ease-in-out duration-300">Meet on MS Teams</a>
             </section>
 
             <section>
